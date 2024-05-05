@@ -1,0 +1,82 @@
+<html>
+<head>
+</head>
+<body>
+<form>
+<fieldset>
+	<legend> step 1:Your details</legend>
+	<ol>
+		<li>
+			<label for=name>Name</label>
+			<input id=name type=text placeholder="First and last name">
+		</li>
+		<li>
+			<label for=email>Email</label>
+			<input id=email type=email placeholder="example@domain.com">
+		</li>
+		<li>
+			<label for=phone>Phone</label>
+			<input id=phone type=tel placeholder="Eg. +447500000000">
+		</li>
+	</ol>
+</fieldset>
+<fieldset>
+	<legend> step 2:Delivery address</legend>
+	<ol>
+		<li>
+				<label for=address>Address</label>
+				<textarea id=address name=address rows=3>
+				</textarea>
+		</li>
+		<li>
+				<label for=postcode>Post code</label>
+				<input id=postcode type=text>
+		</li>
+		<li>
+				<label for=country>Country</label>
+				<input id=country type=text>
+		</li>
+	</ol>
+</fieldset>
+<fieldset>
+	<legend> step 3:Card details</legend>
+	<ol>		
+		<li>
+			<fieldset>
+				<legend>Card type</legend>
+				<ol>
+					<li>
+						<input id=visa type=radio>
+						<label for=visa>VISA</label>
+					</li>
+					<li>
+						<input id=amex type=radio>
+						<label for=amex>AmEx</label>
+					</li>
+					<li>
+						<input id=mastercard type=radio>
+						<label for=mastercard>Mastercard</label>
+					</li>
+				</ol>
+			</fieldset>
+		</li>
+					<li>
+						<label for=cardnumber>Card number</label>
+						<input id=cardnumber type=number>
+					</li>
+					<li>
+						<label for=secure>Security code</label>
+						<input id=secure type=number>
+					</li>
+					<li>
+						<label for=namecard>Name on card</label>
+						<input id=namecard type=text placeholder="Exact name as on the card">
+					</li>
+	</ol>
+</fieldset>
+<fieldset>
+	<button type=submit>Buy it!</button>
+</fieldset>
+</form>
+</body>
+</html>
