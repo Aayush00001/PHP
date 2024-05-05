@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background-image: url("1.jpg");
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 10%; /* IE10 */
+  flex: 10%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>ATMIYA UNIVERSITY</h1>
+  <P>AAYUSH RADHANPARA</p>
+</div>
+
+<div class="navbar">
+  <a href="WEB.html">HOME</a>
+  <a href="WEB ABOUT US.html">ABOUT US</a>
+  <a href="CS & IT.html">CS & IT</a>
+  <a href="#" class="right">Link</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <a href="ABOUT DEPRTMENT.html"><b>ABOUT DEPRTMENT</b></a>
+    <br>
+    <br>
+    <a href="MISSION VISION & VALUES.html"><b>MISSION VISION & VALUES</b></a>
+    <br>
+    <br>
+    <a href="GRADUATE ATTRIBUTES.html"><b>GRADUATE ATTRIBUTES</b></a>
+    <br>
+    <br>
+    <a href="SCOPE OF THE PROGRAM.html"><b>SCOPE OF THE PROGRAM</b></a>
+  </div>
+
+  <div class="main">
+    <div classstyle="height:200px;"></div>
+    <h2 style="color:Tomato;">BEST PRACTICES OF THE COMPUTER SCIENCE & INFORMATION DEPARTMENT</h2>
+    <P><b>The department of Computer science and Information technology undertakes number of qualitative improvement programmes for enhancement of holistic development, Awareness, Involvement and progression towards research, Field Trips, Guest Talks, Workshops, and Hands on training, summer schools, and educational tours. It helps students to have firsthand experience of advances in Science, skill enhancement and progression to higher studies.</b></P>
+    <p><b>The students learn many life skills through different activities outside the classroom including leadership, decision making, taking responsibility, commitment, teamwork and learning to organize and motivate.</b></p>
+    <p><b>Beyond curriculum programs & few of activities at our department are mentioned below:</b></p>
+    <li><b>Android Mobile Application</b></li>
+    <li><b>iOS Application Development</b></li>
+    <li><b>Developer Club</b></li>
+    <li><b>ATMIYA Collaborative Platform</b></li>
+    <li><b>Website of Central Library</b></li>
+    <li><b>Digitalization of student project management and tracking with Feedback.</b></li>
+    <li><b>Online Project Calendar, Submission and Evaluation System</b></li>
+    <li><b>Usage of ICT & Web 3.0 tools</b></li>
+    <li><b>Inculcating Value Based Education</b></li>
+    <li><b>Self-learning through MOOCs/NPTEL/SWAYAM</b></li>
+    <li><b>Membership with Oracle Academy</b></li>
+    <li><b>Usages of FOSS and Open Access Resources</b></li>
+    <li><b>Organization of Webinar</b></li>
+    <li><b>Knowledge Enlighten</b></li>
+    <li><b>Workshops and Expert Talks</b></li>
+    <li><b>Youth Festival (AVSAR)</b></li>
+    <li><b>Spiritual Tour ( 1st Week of Every January –“ Samayo”)</b></li>
+    <li><b>Vocational Program</b></li>
+  </div>
+</div>
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
+  
+</body>
+</html>
